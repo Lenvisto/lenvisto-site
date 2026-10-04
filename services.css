@@ -95,11 +95,14 @@
 #app-care .plan__facts dd { text-align: left; }
 .svc-note + .svc-note { margin-top: 1rem; }
 
+/* v4: four-card grids (apps, app management) as 2 x 2 on wider screens; revision-round definition */
+.svc-rounds { margin: 1.5rem 0 0; max-width: 52rem; font-size: .98rem; color: var(--ink); }
 @media (min-width: 760px) {
-  .svc-grid--two { grid-template-columns: repeat(2, 1fr); }
+  .svc-grid--two, .svc-grid--four { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 960px) {
   .svc-grid { grid-template-columns: repeat(3, 1fr); }
   .svc-grid--two { grid-template-columns: repeat(2, 1fr); max-width: 52rem; }
+  .svc-grid--four { grid-template-columns: repeat(2, 1fr); }
 }
 @media (prefers-reduced-motion: reduce) { .svc * { transition: none !important; } }
