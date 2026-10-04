@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://lenvisto.com/sitemap.xml

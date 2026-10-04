@@ -48,7 +48,7 @@
 
     book: function () {
       var t = byId(param("id")) || C.titles[0];
-      document.title = t.title + " (sample) | Lenvisto Books & Comics preview";
+      document.title = t.title + " (sample) | Lenvisto Books";
       $("#book-cover").innerHTML = cover(t, true);
       $("#book-title").textContent = t.title;
       $("#book-meta").innerHTML = formatBadge(t) + '<span class="sample-tag">Sample title · Coming soon</span><span class="muted">' + esc(t.author) + " · " + esc(t.genre) + " · " + esc(t.age) + "</span>";
@@ -67,7 +67,7 @@
     reader: function () {
       var t = byId(param("id")) || C.titles[0];
       var n = Math.min(Math.max(parseInt(param("ch"), 10) || 1, 1), t.chapters.length), i = n - 1, ch = t.chapters[i];
-      document.title = ch.title + " · " + t.title + " (sample) | Lenvisto";
+      document.title = t.title + ", " + (t.format === "comic" ? "Episode " : "Chapter ") + n + " (sample) | Lenvisto";
       $("#r-book").textContent = t.title; $("#r-book").setAttribute("href", "book.html?id=" + t.id);
       $("#r-chapter").textContent = (t.format === "comic" ? "" : "Chapter " + n + ": ") + ch.title;
       $("#r-count").textContent = n + " of " + t.chapters.length;
