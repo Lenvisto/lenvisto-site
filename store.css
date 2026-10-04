@@ -53,7 +53,7 @@ img, svg { max-width: 100%; display: block; height: auto; }
 .spark--c, .spark--y + .spark { background: radial-gradient(circle at 35% 30%, #fff, var(--mint) 55%, rgba(168,235,207,0) 72%); }
 
 /* Prototype banner */
-.proto-banner { background: linear-gradient(90deg, #6C5CFF, #4BA8FF); color: #fff; text-align: center; font-weight: 800; font-size: .85rem; padding: .4rem .75rem; letter-spacing: .02em; }
+.proto-banner { background: linear-gradient(90deg, #5B4BE0, #2B6CD8); color: #fff; text-align: center; font-weight: 800; font-size: .85rem; padding: .4rem .75rem; letter-spacing: .02em; }
 
 /* Header: frosted glass */
 .s-header { background: rgba(255,255,255,.78); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 10; box-shadow: 0 6px 20px rgba(42,35,80,.10); }
@@ -81,14 +81,14 @@ img, svg { max-width: 100%; display: block; height: auto; }
 .btn:active { transform: translateY(4px); box-shadow: inset 0 2px 1px rgba(255,255,255,.85), inset 0 -2px 4px rgba(190,100,0,.25), 0 1px 0 #D98A1A, 0 4px 10px rgba(217,138,26,.3); }
 .btn:disabled { opacity: .55; cursor: default; transform: none; }
 .btn--big { font-size: 1.1rem; padding: .85rem 1.7rem; }
-.btn--hot { color: #fff; background: linear-gradient(180deg, #FFB3A1 0%, #FF7A6B 50%, #F0525F 100%); text-shadow: 0 1px 1px rgba(150,20,30,.4);
+.btn--hot { color: #3d0a10; background: linear-gradient(180deg, #FFB3A1 0%, #FF7A6B 50%, #F0525F 100%); text-shadow: none;
   box-shadow: inset 0 2px 1px rgba(255,255,255,.7), inset 0 -4px 6px rgba(150,20,40,.25), 0 5px 0 #C93D4D, 0 12px 22px rgba(201,61,77,.35); }
 .btn--white { color: var(--ink); background: linear-gradient(180deg, #fff 0%, #F2EEFF 60%, #E2DAFF 100%);
   box-shadow: inset 0 2px 1px #fff, inset 0 -4px 6px rgba(90,70,180,.12), 0 5px 0 #BDB0F0, 0 12px 22px rgba(90,70,180,.22); }
 .btn[aria-disabled="true"] { opacity: .45; pointer-events: none; }
 .bubble { position: relative; display: inline-block; background: #fff; border-radius: 22px; padding: .45rem 1.1rem; font-weight: 900; font-size: .95rem; box-shadow: var(--lift); }
 .bubble::after { content: ""; position: absolute; left: 24px; bottom: -9px; width: 18px; height: 18px; background: #fff; transform: rotate(45deg); border-radius: 0 0 5px 0; }
-.sample-tag { display: inline-block; background: linear-gradient(180deg, #7A6BFF, #5B4BE0); color: #fff; font-weight: 900; font-size: .7rem; letter-spacing: .08em; padding: .18rem .6rem; border-radius: 999px; box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 2px 6px rgba(91,75,224,.35); }
+.sample-tag { display: inline-block; background: linear-gradient(180deg, #5B4BE0, #4B3FC2); color: #fff; font-weight: 900; font-size: .75rem; letter-spacing: .08em; padding: .18rem .6rem; border-radius: 999px; box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 2px 6px rgba(91,75,224,.35); }
 .fmt { display: inline-block; font-weight: 900; font-size: .72rem; text-transform: uppercase; letter-spacing: .07em; padding: .16rem .6rem; border-radius: 999px; box-shadow: inset 0 1px 0 rgba(255,255,255,.7), 0 2px 5px rgba(42,35,80,.15); }
 .fmt--book { background: linear-gradient(180deg, #DDF2FF, #9FD8FF); color: #0b4a74; } .fmt--comic { background: linear-gradient(180deg, #FFE0EC, #FFAFCB); color: #7d1a45; }
 
@@ -111,7 +111,7 @@ img, svg { max-width: 100%; display: block; height: auto; }
 /* Filters (soft pill toggles) */
 .filters { display: flex; gap: .6rem; flex-wrap: wrap; margin: .5rem 0 1.5rem; }
 .filters button { font: inherit; font-weight: 900; color: var(--ink); border: 0; padding: .45rem 1.1rem; cursor: pointer; border-radius: 999px; background: linear-gradient(180deg, #fff, #EEE9FF); box-shadow: inset 0 1px 0 #fff, 0 3px 0 #CFC4F7, 0 6px 14px rgba(90,70,180,.15); }
-.filters button[aria-pressed="true"] { color: #fff; background: linear-gradient(180deg, #A79BFF, #6C5CFF); box-shadow: inset 0 2px 0 rgba(255,255,255,.45), 0 3px 0 #4B3FC2, 0 6px 14px rgba(75,63,194,.3); }
+.filters button[aria-pressed="true"] { color: #fff; background: linear-gradient(180deg, #6C5CFF, #4B3FC2); box-shadow: inset 0 2px 0 rgba(255,255,255,.45), 0 3px 0 #4B3FC2, 0 6px 14px rgba(75,63,194,.3); }
 .section-title { font-size: clamp(1.5rem, 4.5vw, 2rem); }
 
 /* Covers: image + HTML title overlay */
@@ -160,7 +160,7 @@ img, svg { max-width: 100%; display: block; height: auto; }
 #chapters-heading { font-size: 1.6rem; margin-top: 1.75rem; }
 
 /* Reader: soft movie-style frame, calm plain page */
-.r-bar { background: linear-gradient(90deg, #7A6BFF, #4BA8FF); color: #fff; box-shadow: 0 6px 18px rgba(75,63,194,.25); }
+.r-bar { background: linear-gradient(90deg, #5B4BE0, #2B6CD8); color: #fff; box-shadow: 0 6px 18px rgba(75,63,194,.25); }
 .r-bar__in { display: flex; align-items: center; gap: .4rem 1rem; padding: .75rem 1rem; flex-wrap: wrap; }
 .r-bar a { color: #fff; font-weight: 800; }
 .r-bar h1 { font-size: 1.12rem; margin: 0; color: #fff; text-shadow: 0 1px 2px rgba(0,0,0,.2); }
@@ -213,7 +213,7 @@ img, svg { max-width: 100%; display: block; height: auto; }
 .pack__price { font-size: 1.6rem; font-weight: 900; margin: .6rem 0 .2rem; }
 .pack__per { font-size: .84rem; color: var(--muted); }
 .pack .btn { margin-top: auto; }
-.example-label { display: inline-block; color: #fff; font-weight: 900; padding: .2rem .8rem; border-radius: 999px; background: linear-gradient(180deg, #FF9AA8, #F0525F); box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 4px 10px rgba(240,82,95,.3); }
+.example-label { display: inline-block; color: #fff; font-weight: 900; padding: .2rem .8rem; border-radius: 999px; background: linear-gradient(180deg, #D93A4A, #B3261E); box-shadow: inset 0 1px 0 rgba(255,255,255,.5), 0 4px 10px rgba(240,82,95,.3); }
 .note-box { background: rgba(255,255,255,.92); border-radius: 24px; padding: 1.1rem 1.25rem; margin: 0 0 2.75rem; box-shadow: var(--lift); }
 .note-box ul { margin: .25rem 0 0; padding-left: 1.2rem; }
 
@@ -257,7 +257,7 @@ th { font-weight: 900; color: var(--muted); }
 .s-hero__text--flush { padding: 0; }
 .center { text-align: center; }
 .preview-pill { display: inline-block; font-weight: 900; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: #5a3a00; background: linear-gradient(180deg, #FFE27A, #FFC83D); border-radius: 999px; padding: .3rem .7rem; box-shadow: inset 0 1px 0 #fff, 0 2px 6px rgba(42,35,80,.15); }
-.soon-tag { font-size: .7rem; font-weight: 800; text-transform: uppercase; color: #6C5CFF; }
+.soon-tag { font-size: .7rem; font-weight: 800; text-transform: uppercase; color: #4B3AB8; }
 .pill--soon { background: #EEE9FF; color: #4B3AB8; border: 1px solid #CFC5FF; }
 .chapter-row--soon { cursor: default; opacity: .9; }
 .chapter-row--soon:hover { transform: none; }
@@ -265,3 +265,14 @@ th { font-weight: 900; color: var(--muted); }
 .pack__soon::before, .locked__soon::before { content: "\23F3\FE0E  "; }
 .s-logo img.s-logo__img { width: 88px; height: auto; }
 .soon-label { display: inline-block; font-weight: 900; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .05em; color: #4B3AB8; background: #EEE9FF; border-radius: 999px; padding: .55rem 1.1rem; cursor: default; }
+/* "New title coming soon" placeholder cards (owner rule: no titles). Styled 3D gradient art for cards without a scenery image. */
+.cat-note { margin: -.25rem 0 1rem; font-weight: 700; color: var(--muted); }
+.cover-card--soon .cover-card__title { color: #2B2350; }
+.cover--gradient { aspect-ratio: 2 / 3; box-shadow: inset 0 -18px 40px rgba(30,18,70,.18), inset 0 10px 30px rgba(255,255,255,.45); }
+.cover--g1 { background: radial-gradient(120% 80% at 30% 15%, #FFE6D6 0%, rgba(255,230,214,0) 55%), linear-gradient(160deg, #FFC9A8 0%, #FF9AC1 45%, #9B8CFF 100%); }
+.cover--g2 { background: radial-gradient(120% 80% at 70% 15%, #E8F6FF 0%, rgba(232,246,255,0) 55%), linear-gradient(200deg, #8FD3FF 0%, #A8EBCF 50%, #6C5CFF 100%); }
+.cover__orb { position: absolute; border-radius: 50%; background: radial-gradient(circle at 32% 28%, #fff 0%, rgba(255,255,255,.85) 12%, rgba(255,255,255,.25) 45%, rgba(255,255,255,0) 70%);
+  box-shadow: inset -6px -10px 18px rgba(91,75,224,.25), 0 10px 24px rgba(42,35,80,.18); }
+.cover__orb--1 { width: 46%; aspect-ratio: 1; left: 12%; top: 34%; }
+.cover__orb--2 { width: 28%; aspect-ratio: 1; right: 10%; top: 22%; }
+.cover__orb--3 { width: 20%; aspect-ratio: 1; right: 22%; bottom: 12%; }
