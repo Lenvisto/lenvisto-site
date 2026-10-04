@@ -123,7 +123,6 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
 .site-footer__inner { display: flex; flex-direction: column; gap: .35rem; text-align: center; }
 .disclaimer { color: #b9c3d1; }
 .site-footer a { color: #d5dce6; }
-.site-footer a { color: #d5dce6; }
 
 /* Larger screens */
 @media (min-width: 640px) {
