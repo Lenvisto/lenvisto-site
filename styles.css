@@ -69,6 +69,9 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
   padding: .55rem 1rem; border: 1.5px solid var(--navy); border-radius: 999px;
 }
 .hero__nav a:hover { background: var(--navy); color: var(--white); }
+/* Option A (draft for Legal): plain gold-outline "Sports Picks (21+)" button, links only to the 21+ gate. No art. */
+.hero__nav a.nav-picks { border-color: var(--gold); border-width: 2px; color: var(--navy); background: var(--white); }
+.hero__nav a.nav-picks:hover { background: var(--navy); border-color: var(--navy); color: var(--white); }
 
 /* Sections */
 .section { padding: 3.5rem 0; }
@@ -122,6 +125,8 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
 .site-footer p { margin: 0; }
 .site-footer__inner { display: flex; flex-direction: column; gap: .35rem; text-align: center; }
 .disclaimer { color: #b9c3d1; }
+.site-footer a { color: #d5dce6; }
+.site-footer a { color: #d5dce6; }
 
 /* Larger screens */
 @media (min-width: 640px) {
