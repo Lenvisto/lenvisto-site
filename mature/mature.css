@@ -66,7 +66,7 @@ p { margin: 0 0 .8rem; }
 .tile__title { font-size: 1rem; margin: 0 0 .45rem; color: var(--plum); }
 .tile__cw { font-size: .8rem; color: var(--muted); margin: 0 0 .3rem; }
 .tile__tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem; }
-.tile__tags li { font-size: .78rem; font-weight: 700; color: var(--plum); background: #f6ecd2; border: 1px solid #c9a24a; border-radius: 999px; padding: .05rem .5rem; }
+.tile__tags li { font-size: .78rem; font-weight: 700; line-height: 1.3; color: var(--plum); background: #f6ecd2; border: 1px solid #c9a24a; border-radius: 8px; padding: .1rem .5rem; max-width: 100%; }
 .tiles__note { margin-top: .8rem; }
 
 /* 1. velvet: soft diagonal pile with a gold sheen */
@@ -84,11 +84,14 @@ p { margin: 0 0 .8rem; }
   linear-gradient(#2a0d2e, #2a0d2e) 86% 100% / 16% 50% no-repeat,
   radial-gradient(circle at 74% 22%, #E0B04A 0 9%, transparent 10%),
   linear-gradient(180deg, #9E1B32 0%, #55205c 60%, #3B1340 100%); }
-/* 3. rose: concentric crimson rings with a gold heart (circles only) */
-.tile__art--rose { background:
-  radial-gradient(circle at 50% 46%, #E0B04A 0 5%, #9E1B32 5.5% 11%, #7d1427 11.5% 17%, #9E1B32 17.5% 23%, #7d1427 23.5% 29%, #9E1B32 29.5% 34%, transparent 34.5%),
-  linear-gradient(#E0B04A, #E0B04A) 50% 100% / 3% 34% no-repeat,
-  radial-gradient(circle at 50% 50%, #55205c, #3B1340 70%); }
+/* 3. crescent moon over a dark plum gradient (two circles: gold disc minus a plum disc) + a few tiny gold stars */
+.tile__art--moon { background:
+  radial-gradient(circle at 60% 27%, #2a0d2e 0 15.5%, transparent 16%),
+  radial-gradient(circle at 50% 31%, #E0B04A 0 19%, transparent 19.5%),
+  radial-gradient(circle at 18% 16%, #E0B04A 0 .8%, transparent 1.2%),
+  radial-gradient(circle at 82% 52%, #E0B04A 0 .6%, transparent 1%),
+  radial-gradient(circle at 26% 60%, #F3D58A 0 .5%, transparent .9%),
+  linear-gradient(180deg, #2a0d2e 0 55%, #55205c 100%); }
 /* 4. art-deco sunburst rays from the bottom */
 .tile__art--deco { background:
   radial-gradient(circle at 50% 100%, #E0B04A 0 14%, transparent 14.5%),
