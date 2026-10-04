@@ -23,7 +23,7 @@ p { margin: 0 0 .8rem; }
 .p-header { background: repeating-linear-gradient(135deg, rgba(255,255,255,.035) 0 14px, transparent 14px 28px), var(--navy); border-bottom: 4px solid var(--gold); color: #fff; }
 .p-header__in { display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding-top: .7rem; padding-bottom: .7rem; }
 .p-logo { display: flex; align-items: center; gap: .6rem; color: #fff; text-decoration: none; }
-.p-logo img { width: 58px; height: auto; background: #fff; border-radius: 8px; padding: 3px; }
+.p-logo img { width: 92px; height: auto; background: #fff; border-radius: 8px; padding: 4px 6px; }
 .p-logo span { font-weight: 800; letter-spacing: .14em; text-transform: uppercase; font-size: 1.05rem; line-height: 1.1; }
 .p-logo small { display: block; color: var(--gold); letter-spacing: .08em; font-size: .8rem; font-style: italic; text-transform: uppercase; }
 .p-badge { background: var(--gold); color: var(--navy); font-weight: 900; border-radius: 6px; padding: .15rem .5rem; font-size: .95rem; transform: skewX(-8deg); }
@@ -58,3 +58,14 @@ p { margin: 0 0 .8rem; }
   .tiers { grid-template-columns: repeat(3, 1fr); }
   .plans { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* 21+ gate (no script: two plain links) */
+.gate { padding: 1.5rem 1.1rem 0; }
+.gate__card { max-width: 34rem; margin: 0 auto; background: #fff; border-radius: 16px; padding: 1.6rem 1.3rem; text-align: center; border-top: 8px solid var(--gold); box-shadow: 0 10px 30px rgba(11,31,58,.18); }
+.gate__age { font-size: 3.4rem; font-weight: 900; font-style: italic; color: var(--navy); line-height: 1; margin: 0 0 .5rem; }
+.gate h1 { font-size: 1.45rem; text-transform: uppercase; }
+.gate__nobets { background: var(--soft); border-radius: 8px; padding: .5rem; font-weight: 700; }
+.gate__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin: 1.1rem 0 0; }
+.gate__btn { display: inline-block; font-weight: 800; text-decoration: none; border-radius: 8px; padding: .75rem 1.2rem; border: 2px solid var(--navy); }
+.gate__btn--yes { background: var(--gold); color: var(--navy); border-color: #d99a1f; }
+.gate__btn--leave { background: #fff; color: var(--navy); }

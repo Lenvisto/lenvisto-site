@@ -263,3 +263,5 @@ th { font-weight: 900; color: var(--muted); }
 .chapter-row--soon:hover { transform: none; }
 .pack__soon, .locked__soon { display: inline-block; font-weight: 900; text-transform: uppercase; letter-spacing: .06em; color: #4B3AB8; background: none; border: 0; border-radius: 0; box-shadow: none; padding: .2rem 0; margin: .4rem auto; width: auto; font-size: .95rem; cursor: default; user-select: none; }
 .pack__soon::before, .locked__soon::before { content: "\23F3\FE0E  "; }
+.s-logo img.s-logo__img { width: 88px; height: auto; }
+.soon-label { display: inline-block; font-weight: 900; font-size: 1.05rem; text-transform: uppercase; letter-spacing: .05em; color: #4B3AB8; background: #EEE9FF; border-radius: 999px; padding: .55rem 1.1rem; cursor: default; }
