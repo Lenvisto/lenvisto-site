@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lenvisto | Original Books, Comics &amp; More from New York</title>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Lenvisto | Original Books, Comics &amp; More from New York (prototype)</title>
   <meta name="description" content="Lenvisto is creating original books and comics, with digital marketing help on the way. See our Books &amp; Comics preview. More coming soon.">
   <!-- link previews -->
   <link rel="canonical" href="https://lenvisto.com/">
@@ -31,8 +34,14 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <div class="proto-banner" role="note">Prototype, not live. Sample content.</div>
 
-  <header class="hero">
+  <header class="hero hero--photo">
+    <div class="hero__bg" aria-hidden="true">
+      <img src="assets/stock/hero-sunrise.jpg" width="1600" height="1067"
+           alt="" decoding="async" fetchpriority="high">
+    </div>
+    <div class="hero__scrim" aria-hidden="true"></div>
     <div class="container hero__inner">
       <picture>
         <source srcset="assets/lenvisto-mark.webp" type="image/webp">
@@ -41,14 +50,18 @@
       </picture>
       <h1 class="wordmark">Lenvisto</h1>
       <p class="tagline">See further. Build smarter.</p>
+      <p class="hero__invite">A multi-venture company turning ideas into stories, digital products, and more as we grow.</p>
       <nav class="hero__nav" aria-label="Main">
         <a href="#about">About</a>
-        <a href="#what-we-do">What we do</a>
+        <a href="#what-we-do">What we offer</a>
+        <a href="services.html">Web services</a>
+        <a href="store.html">Books &amp; Comics</a>
         <a href="#contact">Contact</a>
-        <a class="nav-picks" href="picks/">Sports Picks (21+)</a>
+        <a href="picks/">Sports Picks (21+)</a>
         <a href="mature/">Mature Books (18+)</a>
       </nav>
     </div>
+    <p class="hero__photo-credit">Hero photo: Buddy AN / Unsplash</p>
   </header>
 
   <main id="main">
@@ -56,8 +69,8 @@
       <div class="container">
         <p class="eyebrow">About Lenvisto</p>
         <h2 id="about-title">Lennox's vision, built into a company.</h2>
-        <p class="lead">The name blends &ldquo;Len,&rdquo; for founder Lennox, with &ldquo;visto,&rdquo; meaning seen or vision. Our vision is to turn one person's ideas into a family of thriving ventures by pairing human vision with a tireless team of AI specialists.</p>
-        <p>We find, build and grow opportunities across stories, digital products, business and investing. We are disciplined with money, honest with data and protective of the people we serve.</p>
+        <p class="lead">The name blends &ldquo;Len,&rdquo; for founder Lennox, with &ldquo;visto,&rdquo; meaning seen or vision. We build a growing family of ventures — stories, digital products, and more — by pairing human vision with a tireless team of AI specialists.</p>
+        <p>We find, build and grow opportunities across stories, digital products, and business. We are disciplined with money, honest with data and protective of the people we serve.</p>
 
         <h3 class="values__title">What we value</h3>
         <ul class="values">
@@ -73,35 +86,91 @@
 
     <section id="what-we-do" class="section" aria-labelledby="services-title">
       <div class="container">
-        <p class="eyebrow eyebrow--dark">What we do</p>
-        <h2 id="services-title">Our divisions, one vision.</h2>
-        <div class="cards">
-          <article class="card">
-            <h3>Business Development</h3>
-            <p>We explore new business ideas, test them against real data and turn the strongest into clear, validated plans.</p>
-          </article>
-          <article class="card">
-            <h3>Publishing</h3>
-            <p>We develop original stories, books and comics, from first concept and outline through to finished work.</p>
-          </article>
-          <article class="card">
-            <h3><a href="services.html">Web &amp; Apps</a> <span class="badge">Services &amp; pricing</span></h3>
-            <p>We design and build simple, fast, easy-to-use websites and digital products, tested for accessibility and security before launch.</p>
-          </article>
-          <article class="card">
-            <h3>Investment Research</h3>
-            <p>We study markets for our own internal research and planning. This work is for Lenvisto only and is not offered as advice to the public.</p>
-          </article>
+        <p class="eyebrow eyebrow--dark">What we offer</p>
+        <h2 id="services-title">What we&rsquo;re building.</h2>
+        <p class="section-intro">Explore what we offer today, and peek at what is coming next as Lenvisto grows.</p>
+
+        <div class="photo-cards">
+          <a class="photo-card" href="store.html">
+            <div class="photo-card__media">
+              <img src="assets/stock/books-reading.jpg" width="1400" height="1294"
+                   alt="Warmly lit library shelves filled with books"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="photo-card__body">
+              <h3>Books &amp; Comics <span class="badge">Preview</span></h3>
+              <p>A first look at our upcoming original books and comics. New titles are coming soon.</p>
+              <span class="card__more">See the preview &rarr;</span>
+            </div>
+            <p class="photo-credit">Photo: Alfons Morales / Unsplash</p>
+          </a>
+
+          <a class="photo-card" href="services.html">
+            <div class="photo-card__media">
+              <img src="assets/stock/web-laptop.jpg" width="1400" height="932"
+                   alt="Laptop and monitor showing code on a bright desk"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="photo-card__body">
+              <h3>Web &amp; Apps</h3>
+              <p>We design and build simple, fast, easy-to-use websites and digital products, tested for accessibility and security before launch.</p>
+              <span class="card__more">View web services &rarr;</span>
+            </div>
+            <p class="photo-credit">Photo: Christopher Gower / Unsplash</p>
+          </a>
+
+          <a class="photo-card" href="division-digital-marketing.html">
+            <div class="photo-card__media">
+              <img src="assets/stock/marketing-social.jpg" width="1400" height="930"
+                   alt="Hands marking wireframe sketches beside a phone on a desk"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="photo-card__body">
+              <h3>Digital Marketing <span class="badge">Coming soon</span></h3>
+              <p>Social media content and search engine basics for small businesses and creators. Coming soon.</p>
+              <span class="card__more">Learn more &rarr;</span>
+            </div>
+            <p class="photo-credit">Photo: Firmbee.com / Unsplash</p>
+          </a>
+
+          <a class="photo-card" href="division-reflect.html">
+            <div class="photo-card__media">
+              <img src="assets/stock/reflect-journal.jpg" width="1400" height="1051"
+                   alt="Fountain pen writing on lined paper"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="photo-card__body">
+              <h3>Lenvisto Reflect <span class="badge">Coming soon</span></h3>
+              <p>Adults-only AI journaling — a calm place to write and look back. Coming soon; not available yet.</p>
+              <span class="card__more">Learn more &rarr;</span>
+            </div>
+            <p class="photo-credit">Photo: Aaron Burden / Unsplash</p>
+          </a>
+
+          <a class="photo-card" href="division-legal-info.html">
+            <div class="photo-card__media">
+              <img src="assets/stock/legal-justice.jpg" width="1400" height="933"
+                   alt="Bronze Lady Justice statue holding balanced scales"
+                   loading="lazy" decoding="async">
+            </div>
+            <div class="photo-card__body">
+              <h3>Legal Info <span class="badge">Coming soon</span></h3>
+              <p>Planned legal information, forms, and a lawyer directory. Coming soon; not available yet. Not legal advice.</p>
+              <span class="card__more">Learn more &rarr;</span>
+            </div>
+            <p class="photo-credit">Photo: Tingey Injury Law Firm / Unsplash</p>
+          </a>
         </div>
-        <div class="cards">
-          <article class="card">
-            <h3><a href="store.html">Books &amp; Comics</a> <span class="badge">Preview</span></h3>
-            <p>A first look at our upcoming books and comics. Stories are coming soon.</p>
-          </article>
-          <article class="card">
-            <h3><a href="division-digital-marketing.html">Digital Marketing</a></h3>
-            <p>Help getting found online. We plan to offer social media content, search engine basics, and small ad campaigns for small businesses and creators.</p>
-          </article>
+
+        <p class="more-coming"><span aria-hidden="true">&#10022;</span> More ventures are in the works. Check back as we grow.</p>
+
+        <div class="store-cta">
+          <p><strong>Books &amp; Comics</strong> <span class="badge">Preview</span> A first look at our upcoming books and comics. New titles are coming soon.</p>
+          <a class="btn-gold" href="store.html">See the Books &amp; Comics preview &rarr;</a>
+        </div>
+        <div class="store-cta">
+          <p><strong>Web &amp; Apps:</strong> see our website packages, simple apps and monthly care plans.</p>
+          <a class="btn-gold" href="services.html">View web services &amp; pricing &rarr;</a>
         </div>
       </div>
     </section>
@@ -118,8 +187,21 @@
     <div class="container site-footer__inner">
       <p>&copy; 2026 Lenvisto</p>
       <p class="disclaimer">Lenvisto does not provide investment advice.</p>
-      <p><a href="picks/">Sports Picks (21+)</a></p>
-      <p><a href="mature/">Mature Books (18+)</a></p>
+      <p>
+        <a href="picks/">Sports Picks (21+)</a>
+        &middot;
+        <a href="mature/">Mature Books (18+)</a>
+      </p>
+      <p class="photo-credits-footer">
+        Photo credits:
+        Buddy AN (hero sunrise),
+        Alfons Morales (books),
+        Christopher Gower (web),
+        Firmbee.com (marketing),
+        Aaron Burden (Reflect journaling),
+        Tingey Injury Law Firm (Legal Info)
+        &mdash; Unsplash.
+      </p>
     </div>
   </footer>
 </body>
