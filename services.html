@@ -35,31 +35,31 @@
 <body class="svc">
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="hero">
-    <div class="container hero__inner">
-      <a href="./" title="Back to the Lenvisto home page">
+  <header class="svc-topbar">
+    <div class="container svc-topbar__in">
+      <a class="svc-topbar__logo" href="./" title="Back to the Lenvisto home page">
         <picture>
           <source srcset="assets/lenvisto-mark.webp" type="image/webp">
-          <img class="hero__logo" src="assets/lenvisto-mark.jpg" width="546" height="299"
-               alt="Lenvisto home">
+          <img src="assets/lenvisto-mark.jpg" width="546" height="299" alt="Lenvisto home">
         </picture>
+        <span>Web &amp; App Services</span>
       </a>
-      <h1>Lenvisto Web &amp; App Services</h1>
-      <nav class="hero__nav" aria-label="Site">
+      <nav class="svc-topbar__nav" aria-label="Site">
         <a href="./">Lenvisto home</a>
       </nav>
     </div>
   </header>
 
 <main id="main">
-  <section class="section section--navy svc-hero" aria-label="About Lenvisto Web &amp; App Services">
-    <div class="container">
+  <section class="svc-hero svc-hero--photo" aria-label="About Lenvisto Web &amp; App Services">
+    <div class="svc-hero__bg" aria-hidden="true">
+      <img src="assets/stock/web-laptop.jpg" width="1400" height="932" decoding="async" fetchpriority="high" alt="">
+    </div>
+    <div class="svc-hero__scrim" aria-hidden="true"></div>
+    <div class="container svc-hero__inner">
       <p class="eyebrow">Lenvisto Web &amp; Apps</p>
+      <h1>Lenvisto Web &amp; App Services</h1>
       <p class="lead">Done-for-you websites and apps for small businesses and creators, with clear prices and simple monthly plans to keep them running.</p>
-      <figure class="svc-hero-photo">
-        <img src="assets/stock/web-laptop.jpg" width="1400" height="932" decoding="async" alt="Laptop and monitor showing code on a bright desk">
-        <figcaption class="svc-hero-photo__credit">Photo: Christopher Gower / Unsplash</figcaption>
-      </figure>
       <nav class="svc-jump" aria-label="On this page">
         <ul>
           <li><a href="#packages">Website packages</a></li>
@@ -72,6 +72,7 @@
         </ul>
       </nav>
     </div>
+    <p class="svc-hero__credit">Hero laptop: Christopher Gower / Unsplash</p>
   </section>
 
   <!-- Website packages -->
