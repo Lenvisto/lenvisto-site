@@ -72,7 +72,6 @@ p { margin: 0 0 .8rem; }
 
 /* ==== DRAFT ADDITIONS (Oct 5, 2026): sports photo grid for the post-gate coming-soon page ====
    Everything above this line is the LIVE picks/picks.css, unchanged. Photos are local files in picks/img/ (no hotlinks). */
-.proto-banner { margin: 0; background: #fff4dc; color: var(--navy); text-align: center; font-weight: 700; font-size: .85rem; padding: .3rem 1rem; border-bottom: 1px dashed #c98f15; }
 
 .sports-intro { color: var(--muted); margin-bottom: 1rem; }
 .sport-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; grid-template-columns: 1fr; }
