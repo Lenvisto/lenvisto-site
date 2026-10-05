@@ -182,3 +182,18 @@ p { margin: 0 0 .8rem; }
   .p-hero--photo .p-hero__inner { padding: 3.2rem 1.3rem 3.4rem; }
   .p-hero__credit { right: 1.5rem; bottom: .75rem; font-size: .75rem; }
 }
+
+
+/* ==== DRAFT: company motto at top of Sports Picks (post-gate) ==== */
+.p-motto {
+  margin: 0;
+  padding: .55rem 1.1rem;
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  font-size: clamp(.95rem, 2.8vw, 1.15rem);
+  letter-spacing: .02em;
+  color: var(--gold);
+  background: var(--navy);
+  border-bottom: 2px solid rgba(242,179,61,.45);
+}
