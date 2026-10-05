@@ -106,3 +106,31 @@
   .svc-grid--four { grid-template-columns: repeat(2, 1fr); }
 }
 @media (prefers-reduced-motion: reduce) { .svc * { transition: none !important; } }
+
+/* Services hero stock photo under intro */
+.svc-hero-photo {
+  margin: 1.35rem 0 0;
+  max-width: 42rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 10px 28px rgba(0,0,0,.28);
+  background: #061426;
+}
+.svc-hero-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center 40%;
+}
+.svc-hero-photo__credit {
+  margin: 0;
+  padding: .45rem .85rem .55rem;
+  font-size: .78rem;
+  font-weight: 600;
+  color: #d5dce6;
+  background: rgba(11,31,58,.92);
+  border-top: 2px solid var(--gold);
+}
