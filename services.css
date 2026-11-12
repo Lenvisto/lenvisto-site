@@ -141,7 +141,11 @@
   padding: 3px 5px;
 }
 .svc-topbar__nav a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
   color: var(--navy);
   background: var(--gold);
   text-decoration: none;

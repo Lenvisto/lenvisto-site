@@ -63,12 +63,12 @@ img, svg { max-width: 100%; display: block; height: auto; }
 .s-logo span { font-weight: 900; font-size: 1.05rem; line-height: 1.05; }
 .s-logo small { display: block; font-weight: 700; font-size: .72rem; color: var(--muted); }
 .s-nav { display: flex; gap: .35rem; align-items: center; margin-left: auto; flex-wrap: wrap; }
-.s-nav a { text-decoration: none; color: var(--ink); font-weight: 800; font-size: .93rem; padding: .4rem .85rem; border-radius: 999px; }
+.s-nav a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; text-decoration: none; color: var(--ink); font-weight: 800; font-size: .93rem; padding: .4rem .85rem; border-radius: 999px; }
 .s-nav a:hover, .s-nav a[aria-current="page"] { background: linear-gradient(180deg, #fff, var(--lav2)); box-shadow: inset 0 1px 0 #fff, 0 3px 8px rgba(42,35,80,.14); }
 .balance { display: inline-flex !important; align-items: center; gap: .4rem; font-weight: 900; color: #5a3a00 !important;
   background: linear-gradient(180deg, #FFF0A8, var(--sun) 55%, #F7B731) !important; box-shadow: inset 0 2px 0 rgba(255,255,255,.8), inset 0 -3px 0 rgba(180,110,0,.25), 0 4px 10px rgba(200,130,0,.35) !important; }
 .balance .coin { width: 18px; height: 18px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, #fff 0 15%, #FFC83D 45%, #E39A10); box-shadow: 0 1px 2px rgba(0,0,0,.25); }
-@media (max-width: 559px) { .s-nav { width: 100%; justify-content: space-between; margin-left: 0; } .s-nav a { padding: .35rem .55rem; font-size: .88rem; } }
+@media (max-width: 559px) { .s-nav { width: 100%; justify-content: space-between; margin-left: 0; } .s-nav a { min-height: 44px; min-width: 44px; padding: .35rem .55rem; font-size: .88rem; } }
 
 /* Glossy 3D buttons */
 .btn { position: relative; display: inline-block; font: inherit; font-weight: 900; text-decoration: none; color: #4a2c00; cursor: pointer; text-align: center;

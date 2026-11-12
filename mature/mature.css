@@ -44,7 +44,7 @@ p { margin: 0 0 .8rem; }
 .gate__age { font-size: 3.4rem; font-weight: 900; color: var(--plum); line-height: 1; margin: 0 0 .5rem; }
 .gate h1 { font-size: 1.4rem; }
 .gate__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem; margin: 1.1rem 0 0; }
-.gate__btn { display: inline-block; font-weight: 800; text-decoration: none; border-radius: 8px; padding: .75rem 1.2rem; border: 2px solid var(--plum); }
+.gate__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; font-weight: 800; text-decoration: none; border-radius: 8px; padding: .75rem 1.2rem; border: 2px solid var(--plum); }
 .gate__btn--yes { background: var(--plum); color: #fff; }
 .gate__btn--leave { background: #fff; color: var(--plum); }
 

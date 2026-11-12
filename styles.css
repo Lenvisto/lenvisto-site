@@ -65,6 +65,8 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
 }
 .hero__nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; }
 .hero__nav a {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px; min-width: 44px;
   text-decoration: none; font-weight: 600; font-size: .95rem;
   padding: .55rem 1rem; border: 1.5px solid var(--navy); border-radius: 999px;
 }
@@ -159,7 +161,7 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
 .topbar__brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--navy); }
 .topbar__brand img { width: 56px; }
 .topbar__nav { display: flex; gap: .4rem; flex-wrap: wrap; }
-.topbar__nav a { text-decoration: none; font-weight: 600; font-size: .92rem; padding: .4rem .85rem; border: 1.5px solid var(--navy); border-radius: 999px; }
+.topbar__nav a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; text-decoration: none; font-weight: 600; font-size: .92rem; padding: .4rem .85rem; border: 1.5px solid var(--navy); border-radius: 999px; }
 .topbar__nav a:hover { background: var(--navy); color: var(--white); }
 .division-hero { background: var(--navy); color: #e6ebf2; padding: 3rem 0; }
 .division-hero h1 { color: var(--white); font-size: clamp(2rem, 6vw, 3rem); }
@@ -273,7 +275,7 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
   color: var(--muted);
   font-weight: 600;
 }
-.more-coming span { color: var(--gold); margin-right: .35rem; }
+.more-coming span { color: var(--navy); margin-right: .35rem; }
 @media (min-width: 960px) {
   .hero--photo { padding: 5.5rem 0 5rem; min-height: min(72vh, 720px); }
   .hero--photo .hero__logo { width: 280px; }
@@ -359,7 +361,7 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
   margin: 0;
   padding: .35rem 1.25rem .75rem;
   font-size: .72rem;
-  color: #7a8799;
+  color: var(--muted);
   line-height: 1.35;
 }
 .photo-credits-footer {
