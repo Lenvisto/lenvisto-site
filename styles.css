@@ -79,6 +79,8 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-ra
 .section--navy h2, .section--navy h3 { color: var(--white); }
 .lead { font-size: 1.2rem; color: var(--white); max-width: 46rem; }
 .section--navy p { max-width: 46rem; }
+.section--navy a { color: var(--gold); }
+.section--navy a:hover { color: var(--white); }
 
 .eyebrow {
   text-transform: uppercase; letter-spacing: .14em; font-size: .8rem; font-weight: 700;
